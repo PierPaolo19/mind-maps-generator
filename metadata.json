@@ -1,0 +1,5 @@
+{
+  "name": "Mind Maps Generator",
+  "description": "An interactive web application to visualize the 'GenAI Blueprint' article as a series of hand-drawn 'sketchnote' style mind maps. Explore industry verticals, horizontal functions, and reusable AI patterns in a visually engaging format.",
+  "requestFramePermissions": []
+}

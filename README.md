@@ -40,15 +40,32 @@ This project is a client-side, static web application designed to run in an envi
 
 ### Configuration
 
-The application requires your Google Gemini API key to function. The code in `App.tsx` expects this key to be available at `process.env.API_KEY`.
+The application requires your Google Gemini API key to function. The code in `App.tsx` expects this key to be available at `process.env.GEMINI_API_KEY`.
 
-You must configure your deployment environment to set this variable. For example, in hosting providers like Vercel or Netlify, you would add an environment variable named `API_KEY` with your key's value. The platform will then make this available to the application's runtime.
+You must configure your deployment environment to set this variable. For example, in hosting providers like Vercel or Netlify, you would add an environment variable named `GEMINI_API_KEY` with your key's value. The platform will then make this available to the application's runtime.
 
 Without this configuration, the AI-powered generation feature will not work.
 
 ### Running the Application
 
 Once you have a hosting environment configured with the `API_KEY` variable, simply deploy the contents of this project's directory. The `index.html` file is the entry point.
+
+### Running Locally
+
+1. Clone the repository.
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
+3. Create a `.env` file in the root of the project and add your Google Gemini API key as follows:
+   ```
+   GEMINI_API_KEY=YOUR_API_KEY
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open your browser and navigate to the URL provided by Vite (usually `http://localhost:5173`).
 
 ## How to Use the App
 

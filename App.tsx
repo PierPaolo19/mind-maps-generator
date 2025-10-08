@@ -56,7 +56,7 @@ const App: React.FC = () => {
         setError(null);
 
         try {
-            const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+            const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
             // A schema for a leaf node (grandchild). It cannot have children.
             const mindMapGrandchildNodeSchema = {

@@ -3,7 +3,7 @@
 A powerful and creative tool for generating beautiful, hand-drawn "sketchnote" style mind maps. Whether you're brainstorming a new project, studying a complex topic, or organizing your thoughts, this application helps you visualize your ideas in an engaging and memorable way. Simply describe your topic, and let the AI bring it to life.
 
 ![Mind Map Generator Application](./home.png)
-
+This project is tested with BrowserStack.
 ## Why This Tool is Useful
 
 In a world of information overload, visualizing complex ideas is more important than ever. Standard diagrams can be sterile and uninspiring. This tool was built to bridge that gap, offering a unique "sketchnote" aesthetic that makes learning and brainstorming more creative and fun.

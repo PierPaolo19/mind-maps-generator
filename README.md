@@ -1,5 +1,5 @@
 # Visual Mind Map Generator
-This project is tested with BrowserStack.
+
 A powerful and creative tool for generating beautiful, hand-drawn "sketchnote" style mind maps. Whether you're brainstorming a new project, studying a complex topic, or organizing your thoughts, this application helps you visualize your ideas in an engaging and memorable way. Simply describe your topic, and let the AI bring it to life.
 
 ![Mind Map Generator Application](./home.png)
